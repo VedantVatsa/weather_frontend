@@ -5,7 +5,9 @@ document
     const location = e.target.querySelector('input[type="text"]').value;
 
     try {
-      const response = await fetch(`/api/weather?location=${location}`);
+      const response = await fetch(
+        "https://weather-backend-jkgz.onrender.com/api/weather?location=${location}"
+      );
       const data = await response.json();
 
       console.log("Full response data:", data); // Log to check all available fields
