@@ -1,0 +1,14 @@
+
+# Ignore fonts directory
+fonts/
+
+# Ignore images directory
+images/
+
+# Ignore JavaScript files or directory
+js/
+
+# Ignore the node_modules directory at the project root level
+node_modules/
+
+
