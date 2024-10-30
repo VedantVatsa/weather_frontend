@@ -6,7 +6,7 @@ document
 
     try {
       const response = await fetch(
-        "https://weather-backend-jkgz.onrender.com/api/weather?location=${location}"
+        `https://weather-backend-jkgz.onrender.com/api/weather?location=${location}`
       );
       const data = await response.json();
 
